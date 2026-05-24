@@ -7,7 +7,7 @@ Frontend part of a movie streaming service for regular users.
 
 This project is developed in collaboration with the backend developer:
 
-[Backend API & Admin Panel](https://github.com/SerhiiBida/movieland-backend) — @SerhiiBida
+[Backend API & Admin Panel](https://github.com/SerhiiBida/movieland-backend) - @SerhiiBida
 
 The application is a Vue.js SPA that communicates with the backend API and provides movie catalog browsing, movie pages, user profile, comments, ratings, and other user-facing features.
 
