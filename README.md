@@ -1,58 +1,38 @@
-# movieland-frontend
-# 🎬 Movie Service - Frontend
+# .
 
-## About the Project
+This template should help get you started developing with Vue 3 in Vite.
 
-Frontend part of a movie streaming service for regular users.
+## Recommended IDE Setup
 
-This project is developed in collaboration with the backend developer:
+[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-[Backend API & Admin Panel](https://github.com/SerhiiBida/movieland-backend) - @SerhiiBida
+## Recommended Browser Setup
 
-The application is a Vue.js SPA that communicates with the backend API and provides movie catalog browsing, movie pages, user profile, comments, ratings, and other user-facing features.
+- Chromium-based browsers (Chrome, Edge, Brave, etc.):
+  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
+- Firefox:
+  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-## 🚀 Features
+## Customize configuration
 
-- User registration and authentication
-- Movie catalog
-- Pagination
-- Infinite scroll
-- Filtering and sorting movies
-- Movie details page
-- Free and paid movie access
-- Comments and ratings
-- User profile
-- Update username and password
-- Upload user avatar
-- Responsive UI
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Tech Stack
-- Vue.js
-- Vue Router
-- Pinia
-- Tailwind CSS
-- Axios / Fetch API
-- Vite
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=vue,vite,tailwind,pinia,js" />
-</p>
+## Project Setup
 
----
-
-## ⚙️ Installation
-
-git clone https://github.com/username/frontend-repository.git
-cd frontend-repository
+```sh
 npm install
+```
 
-## Run Development Server
+### Compile and Hot-Reload for Development
 
+```sh
 npm run dev
+```
 
-## Build for Production
+### Compile and Minify for Production
 
+```sh
 npm run build
-
-## API
-Frontend communicates with the backend API.
-VITE_API_URL=https://api.example.com
+```
